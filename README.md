@@ -1,7 +1,7 @@
 ## Edgy Theme for BetterDiscord
 ## ---> Use the theme with dark mode!!! <---
 #### A theme for betterdiscord made by me and Hawkuru <3. Thanks BardDesign and Zerthox ;)
-- Change this value to your color code to change color scheme of theme.
+- (in the .css file) Change this value to your color code to change color scheme of theme.
 ```
 :root {
     --main-color:#d20829
