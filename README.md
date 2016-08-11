@@ -15,7 +15,7 @@
     }
 ```
 ## Preview of some variants:
-`#d20829`
+`#9E8C98`
 ![](http://i.imgur.com/BljsnJP.jpg)
 `#d20829`
 ![](http://i.imgur.com/5zB6CJ3.jpg)
