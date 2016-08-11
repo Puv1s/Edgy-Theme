@@ -15,5 +15,5 @@
 ```
 ## Preview of some variants:
 ![](http://i.imgur.com/BljsnJP.jpg)
-![](http://i.imgur.com/Z5Uflp4.jpg)
+![](http://i.imgur.com/5zB6CJ3.jpg)
 ![](http://i.imgur.com/uBUh0Km.jpg)
