@@ -1,10 +1,10 @@
-//META{"name":"Edgy","description":"Customizable theme","author":"Puvis and Hawkuru","version":"1.2.5"}*//
+//META{"name":"Edgy","description":"Customizable theme","author":"Puvis and Hawkuru","version":"4.2.0"}*//
 /*--------------------------------------------------------------------*/
 
 /* Change this value to your color to change color scheme of theme */
 
 :root {
-    --main-color:#d20829
+    --main-color:#d20829;
   }
 
   /* Change this link with your image link (must be https!) to change the background */
@@ -13,7 +13,7 @@
         background-size: 100% !important;
     }
 
-  /*--------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------*/
 
 
 
@@ -93,6 +93,7 @@ body {
 .emoji-picker .categories .item.selected {
     border-bottom-color: var(--main-color) !important;
   }
+
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
     background:#fff!important;
     top:1px;
@@ -143,12 +144,23 @@ body {
   }
   .context-menu .item:hover {
     background: black !important;
-    opacity: 0.8 !important;
+  }
+  .theme-dark.context-menu .item{
+    background-color: black !important
+  }
+  .theme-dark.context-menu .item:hover,
+  .theme-dark.context-menu .item-subMenu:hover{
+    border: 1px solid var(--main-color) !important;
   }
 .upload-modal,
 .upload-modal .footer{
   background-color: black !important;
 }
+.bda-slist .bda-right .bda-plugin-reload,
+.form .btn:disabled{
+  color: var(--main-color) !important;
+}
+
 .upload-modal .inner{
   border: 2px dashed var(--main-color) !important;
 }
