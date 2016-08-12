@@ -88,6 +88,12 @@ body {
 .context-menu{
   background: black !important;
 }
+#autocomplete-popout .row {
+    color: #000000;
+}
+#autocomplete-popout .scroller {
+    background: black !important;
+}
 .bda-dark .emoji-picker .search-bar input{
   background: black;
   border: 1px solid var(--main-color);
