@@ -93,7 +93,9 @@ body {
 .emoji-picker .categories .item.selected {
     border-bottom-color: var(--main-color) !important;
   }
-
+#user-profile-modal .scroller{
+    background: black !important;
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
     background:#fff!important;
     top:1px;
