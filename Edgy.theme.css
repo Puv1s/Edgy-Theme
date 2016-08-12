@@ -134,6 +134,9 @@ body {
   margin: 3px;
   opacity: 0.8 !important;
 }
+.popout section {
+    background-color: black !important;
+}
   .upload-modal .footer .button-primary{
     border-color: var(--main-color) !important;
     color: white;
