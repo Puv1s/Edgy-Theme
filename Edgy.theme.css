@@ -79,7 +79,7 @@ body {
   background: black !important;
 }
 .checkbox .checkbox-inner span:after {
-  background: black var(--main-color) !important;
+  background: var(--main-color) !important;
   box-shadow: 0px 2px 3px var(--main-color) !important;
 }
 .message-group .comment .markup pre {
