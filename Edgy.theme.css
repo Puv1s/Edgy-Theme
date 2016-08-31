@@ -74,13 +74,8 @@ body {
 .comment .markup pre code {
   background: black !important;
 }
-.checkbox .checkbox-inner span{
-  border: 2px solid var(--main-color) !important;
-  background: black !important;
-}
-.checkbox .checkbox-inner span:after {
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
   background: var(--main-color) !important;
-  box-shadow: 0px 2px 3px var(--main-color) !important;
 }
 .message-group .comment .markup pre {
   border: 2px solid var(--main-color) !important;
