@@ -5,13 +5,13 @@
 - (in the .css file) Change this value to your color code to change color scheme of theme.
 ```
 :root {
-    --main-color:#6666ff;
+    --main-color:#F9782;
   }
   ```
 - Change this link with your image link (must be https!) to change the background.
 ```
   .app {
-        background-image:url("https://i.imgur.com/BxiO0C5.png") !important;
+        background-image:url("https://i.imgur.com/BazZJfn.jpg") !important;
     }
 ```
 ## Preview of some variants:
