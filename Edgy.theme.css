@@ -1,21 +1,31 @@
-﻿//META{"name":"Edgy","description":"Customizable theme","author":"Puvis and Hawkuru","version":"4.2.0"}*//
-
+//META{"name":"Edgy","description":"Customizable theme","author":"Puvis and Hawkuru","version":"4.2.0"}*//
+/*--------------------------------------------------------------------*/
 
 /* Change this value to your color to change color scheme of theme */
 
-:root {
-    --main-color:#6666ff;
+  :root {
+    --main-color:#F97826;
   }
 
   /* Change this link with your image link (must be https!) to change the background */
   .app {
-        background-image:url("https://i.imgur.com/PKeO1TO.png") !important;
+        background-image:url("https://i.imgur.com/BazZJfn.jpg") !important;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
 
+  .flex-vertical>.flex-spacer,
+  .theme-dark .chat .title-wrap,
+  .guilds-wrapper .guilds,
+  .private-channels .scroller {
+background-color: rgba(0,0,0,0.4) !important;
+}
+  .search-bar,
+  .account{
+    background:  rgba(0,0,0,0.4) !important;
+  }
   /*---------------------------------------------------------------------*/
 
 
@@ -28,11 +38,9 @@
     #friends .btn,
     .friends-header,
     .friends-table,
-    .search-bar,
     .guilds-wrapper,
     .channels-wrap,
     .guild-channels,
-    .account,
     .guild-header,
     .links,
     .messages-wrapper,
@@ -50,7 +58,6 @@
 .theme-dark .chat{
   background: transparent !important;
 }
-
 body {
 -webkit-backface-visibility: hidden !important;
 }
@@ -59,11 +66,16 @@ body {
 .settings .settings-inner {
     background-color: rgba(0, 0, 0, 0.70) !important;
 }
+
 .comment .markup pre code {
   background: black !important;
 }
 .message-group .comment .markup pre {
   border: 2px solid var(--main-color) !important;
+}
+.chat .new-messages-bar button:first-child,
+.chat .new-messages-bar button:last-child{
+    background: var(--main-color) !important;
 }
 .user-popout .avatar-wrapper .avatar-popout {
   border: 4px solid black;
@@ -85,14 +97,8 @@ body {
 .need-help-modal{
   border: 1px solid var(--main-color);
 }
-.context-menu{
+#user-profile-modal .scroller{
   background: black !important;
-}
-#autocomplete-popout .row {
-    color: #000000;
-}
-#autocomplete-popout .scroller {
-    background: black !important;
 }
 .bda-dark .emoji-picker .search-bar input{
   background: black;
@@ -102,8 +108,8 @@ body {
 .emoji-picker .categories .item.selected {
     border-bottom-color: var(--main-color) !important;
   }
-#user-profile-modal .scroller{
-    background: black !important;
+.ebr-plugin-item, .ebr-theme-item {
+color: black !important;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
     background:#fff!important;
@@ -144,9 +150,6 @@ body {
   border: 2px solid;
   margin: 3px;
   opacity: 0.8 !important;
-}
-.popout section {
-    background-color: black !important;
 }
   .upload-modal .footer .button-primary{
     border-color: var(--main-color) !important;
@@ -281,6 +284,10 @@ body {
   background-color: black !important;
   border-color: #232323 !important;
 }
+.context-menu{
+ background: black !important;
+ }
+
 .popout.popout-bottom-right.no-arrow, .popout.popout-bottom.no-arrow{
   border: 1px solid var(--main-color);
   border-radius: 4px;
@@ -559,6 +566,9 @@ border-radius: 5px;
   background: black !important;
   border-radius: 5px;
   border: 1px solid var(--main-color);
+}
+#autocomplete-popout .row{
+  background-color: black !important;
 }
 
 .bda-dark #pubs-container, .bda-dark .server-row:nth-child(odd),
