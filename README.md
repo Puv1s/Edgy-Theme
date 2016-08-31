@@ -15,8 +15,8 @@
     }
 ```
 ## Preview of some variants:
-`#6666ff`
-![](http://i.imgur.com/BljsnJP.jpg)
+`#F97826`
+![](http://i.imgur.com/YqjsKyT.jpg)
 `#d20829`
 ![](http://i.imgur.com/5zB6CJ3.jpg)
 `#4B746D`
