@@ -23,7 +23,8 @@
 background-color: rgba(0,0,0,0.4) !important;
 }
   .search-bar,
-  .account{
+  .account,
+  #voice-connection{
     background:  rgba(0,0,0,0.4) !important;
   }
   /*---------------------------------------------------------------------*/
@@ -33,7 +34,6 @@ background-color: rgba(0,0,0,0.4) !important;
 
 
   /*Transparency*/
-    #voice-connection,
     #friends,
     #friends .btn,
     .friends-header,
