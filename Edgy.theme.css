@@ -61,7 +61,55 @@ background-color: rgba(0,0,0,0.4) !important;
 body {
 -webkit-backface-visibility: hidden !important;
 }
-
+/* New update */
+#user-profile-modal .tab-bar-container{
+  background-color: black !important;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action{
+  background-color: var(--main-color) !important;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary{
+  background-color: var(--main-color) !important;
+  opacity: 0.7 !important
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected{
+  color: white !important;
+  background-color: var(--main-color) !important;
+  opacity: 1 !important;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected){
+  background-color: var(--main-color) !important;
+  opacity: 1 !important;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover{
+  background-color: var(--main-color) !important;
+  opacity: 0.8 !important
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected){
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.quick-message{
+  border: 1px solid var(--main-color) !important;
+  background: black !important;
+}
+#user-profile-modal .guilds .section .note textarea{
+  color: white !important;
+}
+.note textarea:focus{
+  background: black !important;
+  border: 1px solid var(--main-color) !important;
+  border-radius: 5px;
+}
+#user-profile-modal .guilds .section .section-header{
+  color: white !important;
+}
+/*End of new update*/
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+#bd-customcss-detach-container #bd-customcss-detach-controls-buttons button{
+  background-color: var(--main-color) !important;
+}
 /*Settings*/
 .settings .settings-inner {
     background-color: rgba(0, 0, 0, 0.70) !important;
