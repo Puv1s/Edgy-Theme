@@ -91,6 +91,7 @@ body {
 .quick-message{
   border: 1px solid var(--main-color) !important;
   background: black !important;
+  color: white !important;
 }
 #user-profile-modal .guilds .section .note textarea{
   color: white !important;
