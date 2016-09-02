@@ -95,6 +95,9 @@ body {
 #user-profile-modal .guilds .section .note textarea{
   color: white !important;
 }
+.messages .divider-red + .divider {
+    opacity: 0;
+}
 .note textarea:focus{
   background: black !important;
   border: 1px solid var(--main-color) !important;
