@@ -1,5 +1,4 @@
-[{
-  {
+[
     "name": "Edgy theme",
     "type": "theme",
     "src": "/",
@@ -21,4 +20,4 @@
     "preview": {
       "thumbnail": ""
     }
-}]
+]
