@@ -1,0 +1,24 @@
+[{
+  {
+    "name": "Edgy theme",
+    "type": "theme",
+    "src": "/",
+    "filename": "Edgy",
+    "version": "1.0",
+    "description": "Short description of your theme",
+    "tags": [
+      "Dark",
+      "Transparent",
+      "Full Conversion"
+    ],
+    "authors": [
+      {
+        "discord_id": "81388395867156480",
+        "discord_username": "Jiiks",
+        "github_username": "Jiiks"
+      },
+    ],
+    "preview": {
+      "thumbnail": ""
+    }
+}]
