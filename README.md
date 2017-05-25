@@ -1,4 +1,4 @@
-## Edgy Theme for BetterDiscord
+## Edgy Theme for BetterDiscord <--- old don't use
 ## ---> Use the theme with dark mode!!! <---
 #### A theme for betterdiscord made by me and Hawkuru <3. Thanks BeardDesign and Zerthox ;)
 **Direct download ->** https://betterdiscord.net/ghdl?id=217
