@@ -1,13 +1,13 @@
 # Outdated theme don't use
-.
-.
-.
-.
-.
-.
-.
-.
-.
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
 ## ---> Use the theme with dark mode!!! <---
 #### A theme for betterdiscord made by me and Hawkuru <3. Thanks BeardDesign and Zerthox ;)
 **Direct download ->** https://betterdiscord.net/ghdl?id=217
